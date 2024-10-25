@@ -52,7 +52,7 @@ La qualité du document (correction orthographique, hiérarchie du contenu, lisi
 
 1. **Forker** [le dépôt](https://github.com/paul-schuhm/git-github-exam) et **cloner** le sur votre machine.
 2. Dans le dépôt, **créer** une branche `answers` et placez-vous y.
-3. **Répondez** [aux questions suivantes](#questionnaire). Pour cela, modifier le fichier `README.md` de sorte à ne **conserver que la ou les bonnes réponses sous la question**. Chaque réponse à une question est une modification du fichier et **doit être publiée sous forme de commit**. Il doit y avoir (au moins) **autant de commits dans votre branche que de questions**. 
+3. **Répondez** [aux questions suivantes](#questionnaire). Pour cela, modifier le fichier `README.md` de sorte à ne **conserver que la ou les bonnes réponses sous la question**. Chaque réponse à une question est une modification du fichier et **doit être publiée sous forme de commit**. Il doit y avoir (au moins) **autant de commits dans votre branche que de questions**. (4pts)
 
 Exemple de modification :
 ~~~bash
@@ -69,10 +69,10 @@ Réponse :
 - Blanc
 ~~~
 
-5. Lorsque vous avez terminé, nettoyer vos commits au besoin (commentaire), **fusionner** votre branche `answers` dans votre branche principale **en créant un merge commit**. Ce commit doit apparaître dans votre historique de commits.
+5. Lorsque vous avez terminé, nettoyer vos commits au besoin (squash, commentaires, etc.), **fusionner** votre branche `answers` dans votre branche principale **en créant un merge commit**. Ce commit doit apparaître dans votre historique de commits.
 6. **Ajouter un tag** sur ce commit ayant pour label votre nom et prénom;
 7. **Publier** vos changements sur Github.
-8.  **Ouvrir** une **Pull Request** sur le dépôt d'origine. Dans la code review, **ajouter le commentaire** "Voici ma contribution, (nom et prénom)".
+8.  **Ouvrir** une **Pull Request** sur le dépôt d'origine. Dans la code review, **ajouter le commentaire** suivant: *"Voici ma contribution, (nom et prénom)"*. (2pt)
 
 ### QCM
 
