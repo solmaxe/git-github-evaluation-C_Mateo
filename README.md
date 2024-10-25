@@ -70,8 +70,9 @@ Réponse :
 ~~~
 
 5. Lorsque vous avez terminé, nettoyer vos commits au besoin (commentaire), **fusionner** votre branche `answers` dans votre branche principale **en créant un merge commit**. Ce commit doit apparaître dans votre historique de commits.
-6. **Publier** vos changements sur Github.
-7.  **Ouvrir** une **Pull Request** sur le dépôt d'origine. **Ajouter un commentaire** avec vos initiales (nom et prénom).
+6. **Ajouter un tag** sur ce commit ayant pour label votre nom et prénom;
+7. **Publier** vos changements sur Github.
+8.  **Ouvrir** une **Pull Request** sur le dépôt d'origine. Dans la code review, **ajouter le commentaire** "Voici ma contribution, (nom et prénom)".
 
 ### QCM
 
