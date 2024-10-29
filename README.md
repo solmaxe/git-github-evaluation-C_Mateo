@@ -13,7 +13,6 @@ Date : 24/10/24
 - [Git et Github - Évaluation](#git-et-github---évaluation)
   - [Comment rendre votre travail](#comment-rendre-votre-travail)
   - [Notation](#notation)
-  - [Consignes](#consignes)
   - [Énoncé](#énoncé)
     - [QCM](#qcm)
 
@@ -39,14 +38,14 @@ Dans l'e-mail :
 
 L'évaluation est notée sur 20, **coefficient 1**. Sauf mention contraire, chaque question est notée sur 1 point.
 
-La qualité du document (correction orthographique, hiérarchie du contenu, lisibilité) et **le respect des consignes sera pris en compte dans la note** (**3pt**). 
+La qualité du document (hiérarchie du contenu, lisibilité) et **le respect des consignes sera pris en compte dans la note** (**3pt**). 
 
 **Merci de penser au correcteur**.
 
-## Consignes
+<!-- ## Consignes
 
 - Étant donné le caractère fondamental des notions vues dans ce module, **l'usage d'IA générative, comme chatGPT ou CoPilot, est interdite** ! **Toute dérogation à cette règle entraînera une note de 0**;
-- Vous pouvez consulter vos notes de cours.
+- Vous pouvez consulter vos notes de cours. -->
 
 ## Énoncé
 
@@ -71,8 +70,9 @@ Réponse :
 
 5. Lorsque vous avez terminé, nettoyer vos commits au besoin (squash, commentaires, etc.), **fusionner** votre branche `answers` dans votre branche principale **en créant un merge commit**. Ce commit doit apparaître dans votre historique de commits.
 6. **Ajouter un tag** sur ce commit ayant pour label votre nom et prénom;
-7. **Publier** vos changements sur Github.
-8.  **Ouvrir** une **Pull Request** sur le dépôt d'origine. Dans la code review, **ajouter le commentaire** suivant: *"Voici ma contribution, (nom et prénom)"*. (2pt)
+7. **Publier** vos changements sur Github sur la branche `main`.
+8. **Publier votre branche** `answers` également sur Github.
+9.  **Ouvrir** une **Pull Request** sur le dépôt d'origine. Dans la code review, **ajouter le commentaire** suivant: *"Voici ma contribution, (nom et prénom)"*. (2pt)
 
 ### QCM
 
@@ -199,3 +199,25 @@ Réponse :
  - L'historique des commits sera simplifié, rendant la branche plus facile à lire.
  - Les autres collaborateurs ayant déjà récupéré la branche peuvent rencontrer des problèmes de synchronisation avec l'historique modifié.
  - Il n'y a aucun impact, car `rebase` ne modifie rien dans Git.
+
+22. Les branches de suivi (*tracking branch*) sont:
+
+ - Des branches locales qui suivent automatiquement les commits d'une autre branche locale.
+ - Des branches locales configurées pour suivre les modifications d'une branche distante.
+ - Des branches distantes qui suivent les commits de toutes les branches locales.
+ - Des branches qui fusionnent automatiquement les modifications entre plusieurs branches.  
+
+23. Pour mettre à jour (dans le même état) les branches de suivi (*tracking branch*) avec les branches distantes, il faut:
+
+  - Utiliser `git fetch`.
+  - Utiliser `git pull`
+
+24. `git pull` fait automatiquement un rapatriement de commits d'une branche à l'autre via une stratégie de *merge*: 
+
+ - Vrai
+ - Faux
+
+25. Le nom `origin` donné à un dépôt distant est:
+  
+ - Obligatoire
+ - Juste une convention
