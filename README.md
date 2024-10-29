@@ -1,6 +1,6 @@
 # Git et Github - Évaluation
 
-Module : Git
+Module : Git et Github
 
 Promotion : 2è année
 
@@ -27,7 +27,7 @@ Envoyer votre travail par **un e-mail** à l’adresse suivante :
 
 `git-github-evaluation x_abc` 
 
-où **`x`** est la première lettre de votre nom et **`abc`** votre prénom. Ainsi, j'enverrai un e-mail avec le sujet `git-evaluation_1 s_paul`
+où **`x`** est la première lettre de votre nom et **`abc`** votre prénom. Ainsi, j'enverrai un e-mail avec le sujet `git-github-evaluation s_paul`
 
 Dans l'e-mail :
 
@@ -49,9 +49,9 @@ La qualité du document (hiérarchie du contenu, lisibilité) et **le respect de
 
 ## Énoncé
 
-1. **Forker** [le dépôt](https://github.com/paul-schuhm/git-github-exam) et **cloner** le sur votre machine.
-2. Dans le dépôt, **créer** une branche `answers` et placez-vous y.
-3. **Répondez** [aux questions suivantes](#questionnaire). Pour cela, modifier le fichier `README.md` de sorte à ne **conserver que la ou les bonnes réponses sous la question**. Chaque réponse à une question est une modification du fichier et **doit être publiée sous forme de commit**. Il doit y avoir (au moins) **autant de commits dans votre branche que de questions**. (4pts)
+1. Depuis votre compte Github, **forker** [ce dépôt](https://github.com/paul-schuhm/git-github-exam) et **cloner** le sur votre machine.
+2. Sur le dépôt, **créer** une branche `answers` et placez-vous y.
+3. **Répondez** [aux questions suivantes](#qcm). Pour cela, **modifier** le fichier `README.md` de sorte à ne **conserver que la ou les bonnes réponses sous la question**. Chaque réponse à une question est une modification du fichier et **doit être publiée sous forme de commit**. Il doit y avoir (au moins) **autant de commits dans votre branche que de questions**. (4pts)
 
 Exemple de modification :
 ~~~bash
@@ -71,8 +71,8 @@ Réponse :
 5. Lorsque vous avez terminé, nettoyer vos commits au besoin (squash, commentaires, etc.), **fusionner** votre branche `answers` dans votre branche principale **en créant un merge commit**. Ce commit doit apparaître dans votre historique de commits.
 6. **Ajouter un tag** sur ce commit ayant pour label votre nom et prénom;
 7. **Publier** vos changements sur Github sur la branche `main`.
-8. **Publier votre branche** `answers` également sur Github.
-9.  **Ouvrir** une **Pull Request** sur le dépôt d'origine. Dans la code review, **ajouter le commentaire** suivant: *"Voici ma contribution, (nom et prénom)"*. (2pt)
+8. **Publier également votre branche** `answers` sur Github.
+9.  **Ouvrir** une **Pull Request** sur ce dépôt. Dans la *code review* ouverte avec la PR, **ajouter le commentaire** suivant: *"Voici ma contribution, (nom et prénom)"*. (2pt)
 
 ### QCM
 
@@ -214,10 +214,10 @@ Réponse :
 
 24. `git pull` fait automatiquement un rapatriement de commits d'une branche à l'autre via une stratégie de *merge*: 
 
- - Vrai
- - Faux
+ - Vrai.
+ - Faux.
 
 25. Le nom `origin` donné à un dépôt distant est:
   
- - Obligatoire
- - Juste une convention
+ - Obligatoire.
+ - Une convention.
