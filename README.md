@@ -148,9 +148,7 @@ Réponse :
 
 20. Qu'est-ce que fait la commande `git merge` ?
  -  fusionne l'historique d'une branche avec une autre en créant un nouveau commit de fusion;
- -  remplace l'historique d'une branche par celui d'une autre sans créer de commit
- -  annule les derniers commits.
- -  copie un fichier d'une branche à une autre
+
 
 21. Quelle est une conséquence potentielle de l'utilisation de `git rebase` sur une branche publique ?
  - Les conflits de fusion seront automatiquement résolus.
