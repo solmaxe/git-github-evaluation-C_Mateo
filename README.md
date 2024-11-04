@@ -85,8 +85,6 @@ Réponse :
 
 3. Parmi les protocoles suivants, quels sont les protocoles qui sont utilisables pour communiquer avec la plateforme GitHub ?
  - SSH
- - FTP
- - HTTP
  - HTTPS
 
 4. À quoi sert la commande `git remote -vv` ?
