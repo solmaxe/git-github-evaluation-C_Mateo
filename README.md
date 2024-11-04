@@ -81,9 +81,6 @@ Réponse :
 
 
 2. Pour créer un dépôt localement à partir d'un répertoire vide, quelle est la commande git à utiliser ?
- - clone
- - stash
- - commit
  - init
 
 3. Parmi les protocoles suivants, quels sont les protocoles qui sont utilisables pour communiquer avec la plateforme GitHub ?
